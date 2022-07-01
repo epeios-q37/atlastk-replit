@@ -6,4 +6,4 @@ RESULT=$(zenity --list --height=380 --title="${FLAVOR^}" --text="Choose demonstr
 	"Hello"\
 	"Chatroom"\
 	"Notes"\
-	"TodoMVC") && cd atlas-java/examples/$RESULT && java -cp .:../../Atlas.jar $RESULT
+	"TodoMVC") && cd atlas-java/examples/$RESULT && java -cp .:../../atlastk.jar $RESULT
